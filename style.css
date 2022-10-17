@@ -1,0 +1,104 @@
+html,
+body {
+  height: 80%;
+  margin: 0;
+}
+
+body {
+  background-color: #b49cb7;
+}
+
+.titulo {
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.btns {
+  text-align: center;
+  height: 100%;
+  /* margin-top: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.efeito {
+  border: none;
+  color: #ffffff;
+  padding: 25px;
+  margin: 10px;
+  font-size: 24px;
+  line-height: 24px;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+  background: blueviolet;
+  transform-style: preserve-3d;
+  width: 13%;
+}
+
+.btn-1::after {
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background-color: aqua;
+  border-radius: 10px;
+  box-sizing: border-box;
+  content: "Curiosa";
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+
+.btn-1:hover {
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%);
+}
+
+.btn-2::after {
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background-color: aqua;
+  border-radius: 10px;
+  box-sizing: border-box;
+  content: "Apaixonada";
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+
+.btn-2:hover {
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%);
+}
+
+.btn-3::after {
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background-color: aqua;
+  border-radius: 10px;
+  box-sizing: border-box;
+  content: "Persistente";
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+
+.btn-3:hover {
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%);
+}
